@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 #header {
     background-image: url("assets/background.png");
     width: 100vw;
