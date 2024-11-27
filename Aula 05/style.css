@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-image: url("assets/background.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 720px;
+    height: 404px;
+    /* border: 1px solid white; */
+}
+
+.content {
+    background: rgba(16, 16, 16, 0.5);
+    border-radius: 12px;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.137);
+    width: 512px;
+    height: 232px;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 60px;
+    gap: 10px;
+}
+
+a {
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.apresentation {
+    margin-bottom: 10px;
+}
+
+#aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contentAbout {
+    width: 1440px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.imgProfile {
+    display: flex;
+}
+
+#profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#myProjects {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contentProjects {
+    width: 1509px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project1 {
+    width: 390px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.project2 {
+    width: 390px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.project3 {
+    width: 390px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.project1 > img {
+    width: 370px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.project2 > img {
+    width: 370px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.project3 > img {
+    width: 370px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+h1 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project1 > p {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.project2 > p {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.project3 > p {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAboutMe:hover {
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.btnMyProjects:hover {
+    font-size: 20px;
+    transition: 300ms;
+}
